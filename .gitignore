@@ -11,3 +11,8 @@ big_atlas.zip
 user
 literature
 results
+# Ignore all files in data/
+data/*
+
+# But keep the folder (optional – only works if there's at least one file)
+!data/.gitkeep
